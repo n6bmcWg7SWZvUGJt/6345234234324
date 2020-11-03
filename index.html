@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="articles/chancellery/chancelleryActionsOfTheClerk.js"></script>
+<script src="articles/chancellery/chancelleryArchivistActions.js"></script>
+<script src="articles/chancellery/chancelleryCommonData.js"></script>
+<script src="articles/chancellery/chancelleryDocumentJournals.js"></script>
+<script src="articles/chancellery/chancelleryQuickRregistrationForm.js"></script>
+<script src="articles/chancellery/chancelleryRe-registration.js"></script>
+<script src="articles/chancellery/chancelleryRegistration.js"></script>
+<script src="articles/chancellery/chancelleryStreamingIncoming.js"></script>
+<script src="articles/contracts/contractsActions.js"></script>
+<script src="articles/contracts/contractsActions2.js"></script>
+<script src="articles/contracts/contractsAllMyDocuments.js"></script>
+<script src="articles/contracts/contractsAttachments.js"></script>
+<script src="articles/contracts/contractsContracts.js"></script>
+<script src="articles/contracts/contractsProcessDiagramAndRoles.js"></script>
+<script src="articles/contracts/contractsProcessDiagramAndRoles2.js"></script>
+<script src="articles/doc/docAwareness.js"></script>
+<script src="articles/doc/docCard.js"></script>
+<script src="articles/doc/docContract.js"></script>
+<script src="articles/doc/docEndorsment.js"></script>
+<script src="articles/doc/docFolders.js"></script>
+<script src="articles/doc/docPrints.js"></script>
+<script src="articles/doc/docRegistration.js"></script>
+<script src="articles/doc/docResolution.js"></script>
+<script src="articles/doc/docTemplate.js"></script>
+<script src="articles/features/featuresAttachments.js"></script>
+<script src="articles/features/featuresAttachments0000.js"></script>
+<script src="articles/features/filter.js"></script>
+<script src="articles/features/банкиивалюты.js"></script>
+<script src="articles/features/вариантыуведомлений.js"></script>
+<script src="articles/features/контрагенты.js"></script>
+<script src="articles/features/нашаорганизация.js"></script>
+<script src="articles/features/общиесправочники.js"></script>
+<script src="articles/features/работасосписком.js"></script>
+<script src="articles/features/синхронизация.js"></script>
+<script src="articles/features/фильтрация.js"></script>
+<script src="articles/meetings/meetingsActions.js"></script>
+<script src="articles/meetings/meetingsActions_.js"></script>
+<script src="articles/meetings/meetingsAttachments.js"></script>
+<script src="articles/meetings/meetingsMeetings.js"></script>
+<script src="articles/meetings/meetingsProcessDiagramAndRoles.js"></script>
+<script src="articles/meetings/meetingsProcessDiagramAndRoles_.js"></script>
+<script src="articles/tasks/activityLog.js"></script>
+<script src="articles/tasks/additionally.js"></script>
+<script src="articles/tasks/attachments.js"></script>
+<script src="articles/tasks/cardComment.js"></script>
+<script src="articles/tasks/comments.js"></script>
+<script src="articles/tasks/executiveDisciplineControl.js"></script>
+<script src="articles/tasks/ganttChart.js"></script>
+<script src="articles/tasks/heirarhy.js"></script>
+<script src="articles/tasks/myTasks.js"></script>
+<script src="articles/tasks/printForms.js"></script>
+<script src="articles/tasks/processActions.js"></script>
+<script src="articles/tasks/processAndRoles.js"></script>
+<script src="articles/tasks/processRoute.js"></script>
+<script src="articles/tasks/scheduledTask.js"></script>
+<script src="articles/tasks/searchFolders.js"></script>
+<script src="articles/tasks/task.js"></script>
+<script src="articles/tasks/task2.js"></script>
+<script src="articles/tasks/taskDetails.js"></script>
+<script src="articles/tasks/taskGroup.js"></script>
+<script src="articles/tasks/taskKind.js"></script>
+<script src="articles/tasks/taskManagementProcess.js"></script>
+<script src="articles/tasks/taskReport.js"></script>
+<script src="articles/tasks/taskСard.js"></script>
+<script src="articles/tasks/templates.js"></script>
+<script src="articles/tasks/ways.js"></script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <title>Thesis2</title>
+    <!-- <link rel="import" href="frames/features/featuresAttachments.html"> -->
+    <style type="text/css">
+    div#footer {
+    display: none;
+}
+</style>
+
+<script>
+function openPage(pageName,elmnt) {
+  var i, tabcontent, tablinks;
+  var name = pageName.replace("tab1", '');
+  name = name.replace("tab2", '');
+  name = name.replace("tab3", '');
+  name = name.replace("tab4", '');
+  name = name.replace("tab5", '');
+  name = name.replace("tab6", '');
+  name = name.replace("tab7", '');
+  tabcontent = document.getElementsByClassName("tabcontent"+name);
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink" + name);
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+    tablinks[i].style.borderBottom = "solid #ffffff00 2px";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.borderBottom = "solid #37c6ff 2px";
+}
+document.getElementById("defaultOpen" + name).click();
+</script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-menu">
+            <img src="img/logo.png" style="height: 30px;top:-2px; margin-right: 125px;">
+            <div data-tab-name='features' class="header-menu_item">Общие возможности</div>
+            <div data-tab-name='task' class="header-menu_item active-card">Задачи</div>
+            <div data-tab-name='doc' class="header-menu_item">Документы</div>
+            <div data-tab-name='contracts' class="header-menu_item">Договоры</div>
+            <div data-tab-name='meetings' class="header-menu_item">Совещания</div>
+            <div data-tab-name='chancellery' class="header-menu_item">Канцелярия</div>
+            <!-- <div data-tab-name='setting' class="header-menu_item">Настройки</div> -->
+        </div>
+        <div class="main-content">
+            <div class="card-menu">
+                <div class="task-article-menu">
+                    <div class="article-menu_item-title">Процесс</div>
+                    <div data-tab-name='task-management' class="article-menu_item sub-item active-article-menu-item">
+                        Управление задачами</div>
+                    <div class="article-menu_item-title">Карточки</div>
+                    <div data-tab-name='task-card' class="article-menu_item sub-item">Задача</div>
+                    <div data-tab-name='task-group-task' class="article-menu_item sub-item">Группы задач</div>
+                    <div data-tab-name='task-period-task' class="article-menu_item sub-item">Периодическая задача</div>
+                    <div data-tab-name='task-template' class="article-menu_item sub-item">Шаблон</div>
+                    <div data-tab-name='task-prints' class="article-menu_item">Печатные формы</div>
+                    <div data-tab-name='task-folders' class="article-menu_item">Папки</div>
+                </div>
+            </div>
+            <div class="article">
+                <div class="back-button ">Назад</div>
+                <div class="article-insert">
+                    <div class="task-management">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="menus/featuresMenu.js"></script>
+    <script src="menus/taskMenu.js"></script>
+    <script src="menus/docMenu.js"></script>
+    <script src="menus/contractsMenu.js"></script>
+    <script src="menus/meetingsMenu.js"></script>
+    <script src="menus/chancelleryMenu.js"></script>
+    <script src="functions.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
