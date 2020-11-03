@@ -98,48 +98,9 @@ articles.set('meetings-process-diagram-and-roles_', meetingsProcessDiagramAndRol
 // articles.set('filter', filter);
 // articles.set('банки-и-валюты', Банкиивалюты);
 // articles.set('варианты-уведомлений', Вариантыуведомлений);
-// articles.set('контрагенты', Контрагенты);
-// articles.set('наша-организация', Нашаорганизация);
-// articles.set('общие-справочники', Общиесправочники);
-// articles.set('работа-со-списком', Работасосписком);
-// articles.set('синхронизация', Синхронизация);
-// articles.set('фильтрация', Фильтрация);
-// articles.set('meetingsactions', meetingsActions);
-// articles.set('meetingsactions_', meetingsActions_);
-// articles.set('meetingsattachments', meetingsAttachments);
-// articles.set('meetingsmeetings', meetingsMeetings);
-// articles.set('meetingsprocessdiagramandroles', meetingsProcessDiagramAndRoles);
-// articles.set('meetingsprocessdiagramandroles_', meetingsProcessDiagramAndRoles_);
-// articles.set('activity-log', ActivityLog);
-// articles.set('additionally', Additionally);
-// articles.set('attachments', Attachments);
-// articles.set('card-comment', CardComment);
-// articles.set('comments', Comments);
-// articles.set('executive-discipline-control', ExecutiveDisciplineControl);
-// articles.set('gantt-chart', GanttChart);
-// articles.set('heirarhy', Heirarhy);
-// articles.set('my-tasks', MyTasks);
-// articles.set('print-forms', PrintForms);
-// articles.set('process-actions', ProcessActions);
-// articles.set('process-and-roles', ProcessAndRoles);
-// articles.set('process-route', ProcessRoute);
-// articles.set('scheduled-task', ScheduledTask);
-// articles.set('search-folders', SearchFolders);
-// articles.set('task-details', TaskDetails);
-// articles.set('task-group', TaskGroup);
-// articles.set('task-kind', TaskKind);
+
 
 articles.set('task-management-process', taskManagementProcess);
-
-// articles.set('task-report', TaskReport);
-// articles.set('taskcard', taskCard);
-// articles.set('taskfolders', taskFolders);
-// articles.set('taskgrouptask', taskGroupTask);
-// articles.set('taskmanagement', taskManagement);
-// articles.set('taskperiodtask', taskPeriodTask);
-// articles.set('taskprints', taskPrints);
-// articles.set('tasktemplate', taskTemplate);
-// articles.set('tasktemplate2', taskTemplate2);
 
 
 
@@ -169,19 +130,6 @@ articles.set('task-group', taskGroup);
 articles.set('task-kind', taskKind);
 articles.set('task-management-process', taskManagementProcess);
 articles.set('task-report', taskReport);
-// articles.set('taskcard', taskCard);
-// articles.set('taskfolders', taskFolders);
-// articles.set('taskgrouptask', taskGroupTask);
-// articles.set('taskmanagement', taskManagement);
-// articles.set('taskperiodtask', taskPeriodTask);
-// articles.set('taskprints', taskPrints);
-// articles.set('tasktemplate', taskTemplate);
-// articles.set('tasktemplate2', taskTemplate2);
-
-
-
-
-
 
 
 
@@ -212,14 +160,6 @@ articles.set('doctemplate', docTemplate);
 articles.set('featuresattachments', featuresAttachments);
 articles.set('featuresattachments0000', featuresAttachments0000);
 articles.set('filter', filter);
-articles.set('банки-и-валюты', банкиивалюты);
-articles.set('варианты-уведомлений', вариантыуведомлений);
-articles.set('контрагенты', контрагенты);
-articles.set('наша-организация', нашаорганизация);
-articles.set('общие-справочники', общиесправочники);
-articles.set('работа-со-списком', работасосписком);
-articles.set('синхронизация', синхронизация);
-articles.set('фильтрация', фильтрация);
 articles.set('meetingsactions', meetingsActions);
 articles.set('meetingsactions_', meetingsActions_);
 articles.set('meetingsattachments', meetingsAttachments);
