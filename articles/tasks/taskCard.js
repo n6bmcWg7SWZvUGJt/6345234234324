@@ -156,15 +156,15 @@ const taskCard = `<!DOCTYPE html>
 Данная вкладка позволяет просматривать роли участников процесса работы над задачей. Изменять роли во время работы процесса запрещено</p>
 </div>
                      </div>   <div id="taskCardtab3" class="tabcontenttaskCard" style="display: none;">
-
+                    
                      </div>   <div id="taskCardtab4" class="tabcontenttaskCard" style="display: none;">
-
+                    
                      </div>   <div id="taskCardtab5" class="tabcontenttaskCard" style="display: none;">
-
+                    
                      </div>   <div id="taskCardtab6" class="tabcontenttaskCard" style="display: none;">
-
+                    
                      </div>   <div id="taskCardtab7" class="tabcontenttaskCard" style="display: none;">
-
+                    
                      </div></div>
 
 <script>
