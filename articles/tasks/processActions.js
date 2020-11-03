@@ -15,13 +15,13 @@ const processActions = `<!DOCTYPE html>
 <div id="content">
 <div class="paragraph">
 <p><div class="blockTabs">
-<div class="tabs" id="Process ActionsTabs"><button class="tablinkProcess Actions" onclick="openPage('Process Actionstab1', this)" id="defaultOpenProcess Actions">
-Controller</button><button class="tablinkProcess Actions" onclick="openPage('Process Actionstab2', this)" >
-Executer</button><button class="tablinkProcess Actions" onclick="openPage('Process Actionstab3', this)" >
-Initiator</button><button class="tablinkProcess Actions" onclick="openPage('Process Actionstab4', this)" >
-Observer</button><button class="tablinkProcess Actions" onclick="openPage('Process Actionstab5', this)" >
+<div class="tabs" id="ProcessActionsTabs"><button class="tablinkProcessActions" onclick="openPage('ProcessActionstab1', this)" id="defaultOpenProcessActions">
+Controller</button><button class="tablinkProcessActions" onclick="openPage('ProcessActionstab2', this)" >
+Executer</button><button class="tablinkProcessActions" onclick="openPage('ProcessActionstab3', this)" >
+Initiator</button><button class="tablinkProcessActions" onclick="openPage('ProcessActionstab4', this)" >
+Observer</button><button class="tablinkProcessActions" onclick="openPage('ProcessActionstab5', this)" >
 </button></div>
-      <div class="tabsPages" id="Process ActionsPages">   <div id="Process Actionstab1" class="tabcontentProcess Actions" style="display: none;">
+      <div class="tabsPages" id="ProcessActionsPages">   <div id="ProcessActionstab1" class="tabcontentProcessActions" style="display: none;">
                     <div class="paragraph">
 <p>Как только задача закрыта Исполнителем, она поступает к Контролеру.</p>
 </div>
@@ -46,10 +46,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="565" height="214"></span></p>
-</div>
-<div class="paragraph">
-<p>Основной экран системы ТЕЗИС 2</p>
+<p><span class="image"><img src="img/ControlerMailScreen.png" alt="image" width="565" height="214"></span></p>
 </div>
 <div class="paragraph">
 <p>Действия Контролера можно разбить на несколько этапов:</p>
@@ -67,7 +64,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи и ознакомьтесь с данными, нажмите
-кнопку <span class="image"><img src="media/image2.png" alt="image" width="176" height="36"></span>и при
+кнопку <span class="image"><img src="img/Accept.png" alt="image" width="176" height="36"></span>и при
 необходимости внесите комментарий.</p>
 </div>
 <div class="ulist circle">
@@ -83,10 +80,10 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого отройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image3.png" alt="image" width="185" height="32"></span> и добавьте
+<span class="image"><img src="img/ImprovementRequired.png" alt="image" width="185" height="32"></span> и добавьте
 комментарий.</p>
 </div>
-                     </div>   <div id="Process Actionstab2" class="tabcontentProcess Actions" style="display: none;">
+                     </div>   <div id="ProcessActionstab2" class="tabcontentProcessActions" style="display: none;">
                     <div class="paragraph">
 <p>Как только задача назначена она поступает к Исполнителю.</p>
 </div>
@@ -111,10 +108,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="594" height="234"></span></p>
-</div>
-<div class="paragraph">
-<p>Основной экран системы ТЕЗИС 1</p>
+<p><span class="image"><img src="img/ExecuterMainScreen.png" alt="image" width="594" height="234"></span></p>
 </div>
 <div class="paragraph">
 <p><strong>Действия Исполнителя:</strong></p>
@@ -131,7 +125,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи и ознакомьтесь с данными, нажмите
-кнопку <span class="image"><img src="media/image2.png" alt="image" width="176" height="36"></span>и при
+кнопку <span class="image"><img src="img/Accept.png" alt="image" width="176" height="36"></span>и при
 необходимости внесите комментарий.</p>
 </div>
 <div class="paragraph">
@@ -164,7 +158,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 <div class="paragraph">
 <p>Для этого откройте карточку задачи и ознакомьтесь с данными, добавьте
 при необходимости в карточку файлы на вкладке «Вложения» и нажмите
-кнопку <span class="image"><img src="media/image3.png" alt="image" width="175" height="31"></span>. При
+кнопку <span class="image"><img src="img/Copmleted.png" alt="image" width="175" height="31"></span>. При
 необходимости может быть добавлен комментарий.</p>
 </div>
 <div class="paragraph">
@@ -203,7 +197,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого отройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image4.png" alt="image" width="174" height="37"></span> и выберите нужный
+<span class="image"><img src="img/Decline.png" alt="image" width="174" height="37"></span> и выберите нужный
 вариант причины возврата задачи. Добавление комментария обязательно.</p>
 </div>
 <div class="ulist circle">
@@ -221,7 +215,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого отройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image5.png" alt="image" width="196" height="38"></span>, добавьте комментарий
+<span class="image"><img src="img/Reassign.png" alt="image" width="196" height="38"></span>, добавьте комментарий
 и выберите нового Исполнителя в открывшемся окне переназначения
 Исполнителя.</p>
 </div>
@@ -229,7 +223,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 <p>Новый Исполнитель получит уведомление о назначенной задаче и может
 осуществлять все те же действия, что и Исполнитель.</p>
 </div>
-                     </div>   <div id="Process Actionstab3" class="tabcontentProcess Actions" style="display: none;">
+                     </div>   <div id="ProcessActionstab3" class="tabcontentProcessActions" style="display: none;">
                     <div class="paragraph">
 <p><strong>Действия Инициатора можно разбить на несколько этапов:</strong></p>
 </div>
@@ -262,7 +256,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для отправки на исполнение откройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image1.png" alt="image" width="175" height="33"></span>и назначьте сотрудников
+<span class="image"><img src="img/Assign.png" alt="image" width="175" height="33"></span>и назначьте сотрудников
 на роли.</p>
 </div>
 <div class="ulist circle">
@@ -278,7 +272,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image1.png" alt="image" width="175" height="33"></span>и при необходимости
+<span class="image"><img src="img/Assign.png" alt="image" width="175" height="33"></span>и при необходимости
 внесите изменения в назначенные роли в окне подтверждения списка
 пользователей.</p>
 </div>
@@ -298,7 +292,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image2.png" alt="image" width="192" height="35"></span>и при необходимости
+<span class="image"><img src="img/Completed.png" alt="image" width="192" height="35"></span>и при необходимости
 внесите комментарий в окне записи журнала действий.</p>
 </div>
 <div class="ulist circle">
@@ -317,13 +311,13 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image3.png" alt="image" width="193" height="36"></span>и обязательно внесите
+<span class="image"><img src="img/ImprovementRequired.png" alt="image" width="193" height="36"></span>и обязательно внесите
 комментарий в окне записи журнала действий.</p>
 </div>
 <div class="ulist circle">
 <ul class="circle">
 <li>
-<p>переназначение Исполнителя;</p>
+<p>Переназначение Исполнителя;</p>
 </li>
 </ul>
 </div>
@@ -335,7 +329,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image4.png" alt="image" width="183" height="30"></span>и обязательно внесите
+<span class="image"><img src="img/Reassign.png" alt="image" width="183" height="30"></span>и обязательно внесите
 комментарий в окне записи журнала действий.</p>
 </div>
 <div class="paragraph">
@@ -359,10 +353,10 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image5.png" alt="image" width="180" height="32"></span>и обязательно внесите
+<span class="image"><img src="img/CancelProcess.png" alt="image" width="180" height="32"></span>и обязательно внесите
 комментарий в окне записи журнала действий.</p>
 </div>
-                     </div>   <div id="Process Actionstab4" class="tabcontentProcess Actions" style="display: none;">
+                     </div>   <div id="ProcessActionstab4" class="tabcontentProcessActions" style="display: none;">
                     <div class="paragraph">
 <p><strong>Карточку задачи, в которой пользователь назначен Наблюдателем можно
 найти на основном экране системы ТЕЗИС:</strong></p>
@@ -381,13 +375,10 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="590" height="219"></span></p>
+<p><span class="image"><img src="img/ObserverMainScreen.png" alt="image" width="590" height="219"></span></p>
 </div>
 <div class="paragraph">
-<p>Основной экран системы ТЕЗИС 3</p>
-</div>
-<div class="paragraph">
-<p>Действия Наблюдателя можно разбить на несколько этапов:</p>
+<p><strong>Действия Наблюдателя можно разбить на несколько этапов:</strong></p>
 </div>
 <div class="ulist circle">
 <ul class="circle">
@@ -409,7 +400,7 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 <p>При необходимости Наблюдатель может вести наблюдение за задачей отключив
 оповещения. Для этого откройте карточку задачи и ознакомьтесь с данными
 или добавьте комментарий на вкладке «Обсуждение», нажмите кнопку
-<span class="image"><img src="media/image2.png" alt="image" width="192" height="35"></span> и выберите вариант
+<span class="image"><img src="img/StopWatchingCombo.png" alt="image" width="192" height="35"></span> и выберите вариант
 «Отключить оповещения».</p>
 </div>
 <div class="paragraph">
@@ -429,25 +420,25 @@ Observer</button><button class="tablinkProcess Actions" onclick="openPage('Proce
 </div>
 <div class="paragraph">
 <p>Для этого откройте карточку задачи, нажмите кнопку
-<span class="image"><img src="media/image2.png" alt="image" width="192" height="35"></span> и выберите вариант
+<span class="image"><img src="img/StopWatchingCombo.png" alt="image" width="192" height="35"></span> и выберите вариант
 «Удалить из наблюдателей».</p>
 </div>
 <div class="paragraph">
 <p>Пользователь полностью лишается доступа к карточке задаче и ее больше
 нет в папке действий по задачам «Наблюдение».</p>
 </div>
-                     </div>   <div id="Process Actionstab5" class="tabcontentProcess Actions" style="display: none;">
+                     </div>   <div id="ProcessActionstab5" class="tabcontentProcessActions" style="display: none;">
                     
                      </div></div>
 
 <script>
-function openPageProcess Actions(pageName,elmnt) {
-  var i, tabcontentProcess Actions, tablinks;
-  tabcontentProcess Actions = document.getElementsByClassName("tabcontentProcess Actions");
-  for (i = 0; i < tabcontentProcess Actions.length; i++) {
-    tabcontentProcess Actions[i].style.display = "none";
+function openPageProcessActions(pageName,elmnt) {
+  var i, tabcontentProcessActions, tablinks;
+  tabcontentProcessActions = document.getElementsByClassName("tabcontentProcessActions");
+  for (i = 0; i < tabcontentProcessActions.length; i++) {
+    tabcontentProcessActions[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablinkProcess Actions");
+  tablinks = document.getElementsByClassName("tablinkProcessActions");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
     tablinks[i].style.borderBottom = "solid #ffffff00 2px";
@@ -455,6 +446,6 @@ function openPageProcess Actions(pageName,elmnt) {
   document.getElementById(pageName).style.display = "block";
   elmnt.style.borderBottom = "solid #37c6ff 2px";
 }
-document.getElementById("defaultOpenProcess Actions").click();
+document.getElementById("defaultOpenProcessActions").click();
 </script>
 `;

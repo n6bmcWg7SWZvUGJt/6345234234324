@@ -19,7 +19,7 @@ const ganttChart = `<!DOCTYPE html>
 </div>
 <div class="paragraph">
 <p>Для того чтобы сформировать диаграмму Ганта необходимо нажать на кнопку
-<span class="image"><img src="media/image1.png" alt="image" width="22" height="25"></span> в списке задач и
+<span class="image"><img src="img/SettingsButton.png" alt="image" width="22" height="25"></span> в списке задач и
 выбрать вид «Диаграмма Ганта».</p>
 </div>
 <div class="paragraph">
@@ -29,10 +29,7 @@ const ganttChart = `<!DOCTYPE html>
 полос, ориентированных вдоль оси времени.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image2.png" alt="image" width="627" height="265"></span></p>
-</div>
-<div class="paragraph">
-<p>Общий вид диаграммы Ганта</p>
+<p><span class="image"><img src="img/TaskGanttChart.png" alt="image" width="627" height="265"></span></p>
 </div>
 <div class="paragraph">
 <p>Каждая полоса на диаграмме представляет отдельную задачу, её границы –
@@ -50,10 +47,7 @@ const ganttChart = `<!DOCTYPE html>
 <p>Около отрезка задачи указывается её Исполнитель.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image3.png" alt="image" width="580" height="293"></span></p>
-</div>
-<div class="paragraph">
-<p>Диаграмма Ганта</p>
+<p><span class="image"><img src="img/TaskGanttChart2.png" alt="image" width="580" height="293"></span></p>
 </div>
 <div class="paragraph">
 <p><strong>Особенности:</strong></p>
@@ -145,7 +139,7 @@ const ganttChart = `<!DOCTYPE html>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-02 17:22:05 RTZ 3 (чшьр)
+Last updated 2020-11-03 15:58:10 RTZ 3 (чшьр)
 </div>
 </div>
 </body>

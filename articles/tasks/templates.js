@@ -25,7 +25,7 @@ Task Templates</button><button class="tablinkTemplates" onclick="openPage('Templ
 групп задач и находятся в пункте меню «Задачи» – «Шаблоны групп задач».</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="571" height="113"></span></p>
+<p><span class="image"><img src="img/TaskGroupTemplates.png" alt="image" width="571" height="113"></span></p>
 </div>
 <div class="paragraph">
 <p>Шаблоны групп задач</p>
@@ -33,7 +33,7 @@ Task Templates</button><button class="tablinkTemplates" onclick="openPage('Templ
 <div class="paragraph">
 <p>Для создания шаблона группы задач выберите пункт меню «Задачи» –
 «Шаблоны группы задач» и нажмите кнопку
-<span class="image"><img src="media/image2.png" alt="image" width="74" height="25"></span>. В открывшемся окне
+<span class="image"><img src="img/ButtonCreate.png" alt="image" width="74" height="25"></span>. В открывшемся окне
 заполните поля и добавьте необходимые задачи.</p>
 </div>
 <div class="paragraph">
@@ -41,10 +41,7 @@ Task Templates</button><button class="tablinkTemplates" onclick="openPage('Templ
 минутах, а не в виде конкретной даты.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image3.png" alt="image" width="492" height="297"></span></p>
-</div>
-<div class="paragraph">
-<p>Выбор участников</p>
+<p><span class="image"><img src="img/TaskGroupTemplateEditing.png" alt="image" width="492" height="297"></span></p>
 </div>
 <div class="paragraph">
 <p>Шаблоны групп задач доступны для редактирования по умолчанию только
@@ -64,10 +61,7 @@ Task Templates</button><button class="tablinkTemplates" onclick="openPage('Templ
 копироваться в карточку, созданную по этому шаблону.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image4.png" alt="image" width="332" height="224"></span></p>
-</div>
-<div class="paragraph">
-<p>Добавление вложений</p>
+<p><span class="image"><img src="img/AddingAttachments.png" alt="image" width="332" height="224"></span></p>
 </div>
                      </div>   <div id="Templatestab2" class="tabcontentTemplates" style="display: none;">
                     <div class="paragraph">
@@ -75,10 +69,7 @@ Task Templates</button><button class="tablinkTemplates" onclick="openPage('Templ
 и находятся в пункте меню «Задачи» – «Шаблоны задач».</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="365" height="130"></span></p>
-</div>
-<div class="paragraph">
-<p>Шаблоны задач</p>
+<p><span class="image"><img src="img/TaskTemplates.png" alt="image" width="365" height="130"></span></p>
 </div>
 <div class="paragraph">
 <p>Шаблон можно создать, изменить или удалить с помощью соответствующих
@@ -90,18 +81,18 @@ Task Templates</button><button class="tablinkTemplates" onclick="openPage('Templ
 <div class="ulist circle">
 <ul class="circle">
 <li>
-<p>создание нового шаблона задач – в этом случае откроется окно редактирования шаблона задач, в котором нужно заполнить необходимые поля (для создания нажмите на кнопку <span class="image"><img src="media/image2.png" alt="image" width="88" height="25"></span> – «Новый»);</p>
+<p>создание нового шаблона задач – в этом случае откроется окно редактирования шаблона задач, в котором нужно заполнить необходимые поля (для создания нажмите на кнопку <span class="image"><img src="img/ButtonCreateCombo.png" alt="image" width="88" height="25"></span> – «Новый»);</p>
 </li>
 <li>
-<p>копирование существующего шаблона – в этом случае создается копия выбранного из списка шаблона (для того, чтобы скопировать выбранный шаблон, нажмите кнопку <span class="image"><img src="media/image2.png" alt="image" width="88" height="25"></span> – «Копировать»).</p>
+<p>копирование существующего шаблона – в этом случае создается копия выбранного из списка шаблона (для того, чтобы скопировать выбранный шаблон, нажмите кнопку <span class="image"><img src="img/ButtonCreateCombo.png" alt="image" width="88" height="25"></span> – «Копировать»).</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Кнопка <span class="image"><img src="media/image3.png" alt="image" width="120" height="25"></span> создает задачу
+<p>Кнопка <span class="image"><img src="img/ButtonCreateTheTask.png" alt="image" width="100" height="25"></span> создает задачу
 на основе выбранного шаблона. Также задачи по шаблону можно создавать из
 списка задач или с помощью кнопки
-<span class="image"><img src="media/image4.png" alt="image" width="185" height="25"></span> в карточке новой
+<span class="image"><img src="img/ButtonFillFromTheTemplate.png" alt="image" width="185" height="25"></span> в карточке новой
 задачи.</p>
 </div>
 <div class="paragraph">
@@ -159,18 +150,15 @@ Task Templates</button><button class="tablinkTemplates" onclick="openPage('Templ
 <div class="paragraph">
 <p>Для того чтобы установить доступ к шаблону для отдельных пользователей
 откройте вкладку «Доступ к шаблону» и нажмите кнопу
-<span class="image"><img src="media/image5.png" alt="image" width="93" height="32"></span> (при этом откроется
+<span class="image"><img src="img/ButtonAdd.png" alt="image" width="88" height="32"></span> (при этом откроется
 окно выбора участников). Чтобы добавить пользователей в список, имеющих
 доступ, нужно кликнуть два раза по имени участника. Также можно выделить
 нужного пользователя в списке левого окна и нажав на кнопку
-<span class="image"><img src="media/image6.png" alt="image" width="52" height="32"></span> перенести в правое
+<span class="image"><img src="img/ButtonTransfer.png" alt="image" width="52" height="32"></span> перенести в правое
 окно.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image7.png" alt="image" width="462" height="261"></span></p>
-</div>
-<div class="paragraph">
-<p>Выбор участников</p>
+<p><span class="image"><img src="img/ParticipantsSelection.png" alt="image" width="462" height="261"></span></p>
 </div>
 <div class="paragraph">
 <p>Заполненный и сохраненный шаблон можно использовать при создании задач.</p>

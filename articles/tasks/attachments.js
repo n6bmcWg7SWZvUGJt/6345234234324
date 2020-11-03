@@ -22,7 +22,7 @@ const attachments = `<!DOCTYPE html>
 <p>Рядом с названием вкладки указан счетчик – число вложенных файлов.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="483" height="358"></span></p>
+<p><span class="image"><img src="img/TabAttachments.png" alt="image" width="483" height="358"></span></p>
 </div>
 <div class="paragraph">
 <p>Вкладка «Вложения»</p>
@@ -44,7 +44,7 @@ const attachments = `<!DOCTYPE html>
 <p>Дополнительные типы вложений создаются Администратором в справочнике.</p>
 </div>
 <div class="paragraph">
-<p>Кнопка <span class="image"><img src="media/image2.png" alt="image" width="141" height="25"></span> отображается
+<p>Кнопка <span class="image"><img src="img/ButtonCheckSignatures.png" alt="image" width="141" height="25"></span> отображается
 при включении соответствующих настроек в системных параметрах.</p>
 </div>
 <div class="paragraph">
@@ -84,7 +84,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </li>
 <li>
 <p>
-Нажмите на кнопку <span class="image"><img src="media/image1.png" alt="image" width="92" height="32"></span> и
+Нажмите на кнопку <span class="image"><img src="img/ButtonAdd.png" alt="image" width="92" height="32"></span> и
 выберите нужный файл для добавления.</p>
 </li>
 <li>
@@ -149,7 +149,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 <li>
 <p>
 Выберите в выпадающем меню кнопки
-<span class="image"><img src="media/image2.png" alt="image" width="95" height="25"></span> вариант «Со сканера».</p>
+<span class="image"><img src="img/ButtonAddCombo.png" alt="image" width="95" height="25"></span> вариант «Со сканера».</p>
 </li>
 <li>
 <p>
@@ -158,7 +158,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </li>
 <li>
 <p>
-Нажмите <span class="image"><img src="media/image3.png" alt="image" width="109" height="27"></span> и укажите
+Нажмите <span class="image"><img src="img/ButtonAdd.png" alt="image" width="109" height="27"></span> и укажите
 нужное устройство.
 В окне для выбора будут доступны все настроенные сканеры. Последнее
 использованное устройство будет сохранено в окне при следующем
@@ -213,7 +213,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </li>
 <li>
 <p>
-Нажмите на кнопку <span class="image"><img src="media/image2.png" alt="image" width="95" height="25"></span> и
+Нажмите на кнопку <span class="image"><img src="img/ButtonAddCombo.png" alt="image" width="95" height="25"></span> и
 выберите вариант «Файлы» или выберите необходимые файлы на своём
 компьютере и перетащите их на вкладку карточки, удерживая любую клавишу
 мыши.</p>
@@ -221,7 +221,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 <li>
 <p>
 В открывшемся окне загрузки нескольких вложений нажмите кнопку
-<span class="image"><img src="media/image4.png" alt="image" width="44" height="26"></span> и выберите нужные
+<span class="image"><img src="img/ButtonUpload.png" alt="image" width="44" height="26"></span> и выберите нужные
 файлы.</p>
 </li>
 <li>
@@ -250,7 +250,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 <li>
 <p>
 Добавьте нужный файл в буфер обмена, нажав на кнопку
-<span class="image"><img src="media/image5.png" alt="image" width="50" height="25"></span> или выберите
+<span class="image"><img src="img/ButtonCopy.png" alt="image" width="50" height="25"></span> или выберите
 соответствующий пункт во всплывающем меню.</p>
 </li>
 <li>
@@ -260,7 +260,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 <li>
 <p>
 Выберите пункт «Из буфера» в выпадающем списке кнопки
-<span class="image"><img src="media/image2.png" alt="image" width="95" height="25"></span> или во всплывающем
+<span class="image"><img src="img/ButtonAddCombo.png" alt="image" width="95" height="25"></span> или во всплывающем
 меню.</p>
 </li>
 </ol>
@@ -280,7 +280,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 <div class="paragraph">
 <p>Если карточка является основной, а у подчинённых есть вложения, то в
 основной карточке в выпадающем меню кнопки
-<span class="image"><img src="media/image2.png" alt="image" width="95" height="25"></span> появляются новые пункты
+<span class="image"><img src="img/ButtonAddCombo.png" alt="image" width="95" height="25"></span> появляются новые пункты
 «Из подчиненных» и «Версию из подчиненных», позволяющие добавлять
 вложения из подчинённых карточек.</p>
 </div>
@@ -323,18 +323,28 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 версию.</p>
 </li>
 <li>
-<p>Нажмите на кнопку <span class="image"><img src="media/image1.png" alt="image" width="95" height="25"></span> и
+<p>Нажмите на кнопку <span class="image"><img src="img/ButtonAddCombo.png" alt="image" width="95" height="25"></span> и
 выберите пункт «Новую версию» либо сделайте то же самое во всплывающем
-меню.
-<span class="image"><img src="media/image2.png" alt="image" width="364" height="269"></span>
-Добавление версии вложений</p>
+меню.</p>
 </li>
+</ol>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/AddAttachmentVersion.png" alt="image" width="364" height="269"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
 <li>
 <p>В окне редактирования вложений укажите имя документа, выберите тип
-вложения и при необходимости оставьте комментарий.
-<span class="image"><img src="media/image3.png" alt="image" width="302" height="189"></span>
-Редактирование вложений</p>
+вложения и при необходимости оставьте комментарий.</p>
 </li>
+</ol>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/EditingAttachments.png" alt="image" width="302" height="189"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
 <li>
 <p>Нажмите «ОК».</p>
 </li>
@@ -345,10 +355,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 можно указать как основную.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image4.png" alt="image" width="479" height="171"></span></p>
-</div>
-<div class="paragraph">
-<p>Новая версия вложений</p>
+<p><span class="image"><img src="img/NewVersionOfAttachments.png" alt="image" width="479" height="171"></span></p>
 </div>
 <div class="paragraph">
 <p>Версию вложения можно также добавить со сканера или из буфера обмена.</p>
@@ -379,19 +386,19 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </ol>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="419" height="302"></span></p>
-</div>
-<div class="paragraph">
-<p>Карточка документа</p>
+<p><span class="image"><img src="img/DocumentCard.png" alt="image" width="419" height="302"></span></p>
 </div>
 <div class="olist arabic">
 <ol class="arabic" start="3">
 <li>
 <p>Нажмите левой кнопкой мышки на нужный файл вложения и выберите
 «Редактировать документ».
-<span class="image"><img src="media/image2.png" alt="image" width="586" height="176"></span>
-Выбор файла</p>
+<span class="image"><img src="img/FileSelection.png" alt="image" width="586" height="176"></span></p>
 </li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
 <li>
 <p>Откройте скачанный файл.</p>
 </li>
@@ -405,10 +412,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </ol>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image3.png" alt="image" width="531" height="306"></span></p>
-</div>
-<div class="paragraph">
-<p>Сохранение вложения</p>
+<p><span class="image"><img src="img/SaveAttachment.png" alt="image" width="531" height="306"></span></p>
 </div>
 <div class="paragraph">
 <p>Документ будет отправлен в ТЕЗИС.</p>
@@ -432,10 +436,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </div>
                      </div>   <div id="Attachmentstab4" class="tabcontentAttachments" style="display: none;">
                     <div class="paragraph">
-<p>При работе с вложениями в Системе используются следующие кнопки:</p>
-</div>
-<div class="paragraph">
-<p>Кнопки вкладки</p>
+<p><strong>При работе с вложениями в Системе используются следующие кнопки:</strong></p>
 </div>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -450,32 +451,32 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image1.png" alt="image" width="95" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonAddCombo.png" alt="image" width="95" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Позволяет добавить
 новое вложение или его версию</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image2.png" alt="image" width="50" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonEdit.png" alt="image" width="50" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Изменяет название
 файла и тип вложения, а также добавляет комментарий</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image3.png" alt="image" width="50" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonRemove.png" alt="image" width="50" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Удаляет выбранное
 вложение</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image4.png" alt="image" width="50" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonCopy.png" alt="image" width="50" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Копирует выбранное
 вложение в буфер обмена</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image5.png" alt="image" width="142" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonCheckSignatures.png" alt="image" width="142" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Проверяет
 подлинность подписей</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image6.png" alt="image" width="50" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonStamp.png" alt="image" width="50" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><div><div class="paragraph">
 <p>Формирует и печатает документ с графическим отображением следующих
 штампов:</p>
@@ -494,7 +495,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </ul>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image7.png" alt="image" width="148" height="77"></span></p>
+<p><span class="image"><img src="img/Stamp.png" alt="image" width="148" height="77"></span></p>
 </div>
 <div class="paragraph">
 <p>Штампы можно редактировать: изменять размер с помощью соответствующих
@@ -514,7 +515,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image8.png" alt="image" width="50" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonSave.png" alt="image" width="50" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><div><div class="paragraph">
 <p>Позволяет сохранить вложение в произвольную папку на компьютере.</p>
 </div>
@@ -527,7 +528,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/image9.png" alt="image" width="81" height="25"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="img/ButtonCompare.png" alt="image" width="81" height="25"></span></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Позволяет выполнить
 сравнение отсканированной копии подписанного документа с его электронной
 версией</p></td>
@@ -536,7 +537,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 </table>
 <div class="paragraph">
 <p>Механизм сравнения, доступный по кнопке
-<span class="image"><img src="media/image9.png" alt="image" width="81" height="25"></span> позволяет, например,
+<span class="image"><img src="img/ButtonCompare.png" alt="image" width="81" height="25"></span> позволяет, например,
 обнаружить отличия, подписанного одной стороной (контрагентом) документа
 от последней согласованной сторонами версии.</p>
 </div>
@@ -558,10 +559,7 @@ Use Attachments</button><button class="tablinkAttachments" onclick="openPage('At
 выделены все отличия.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image10.jpeg" alt="image" width="569" height="254"></span></p>
-</div>
-<div class="paragraph">
-<p>Сравнение документов</p>
+<p><span class="image"><img src="img/CompareDocuments.png" alt="image" width="569" height="254"></span></p>
 </div>
 <div class="paragraph">
 <p>Функция сравнения документов требует наличия лицензии с включенным

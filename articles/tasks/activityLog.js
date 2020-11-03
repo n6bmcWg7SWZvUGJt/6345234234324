@@ -14,7 +14,7 @@ const activityLog = `<!DOCTYPE html>
 </div>
 <div id="content">
 <div class="paragraph">
-<p>При нажатии на кнопку <span class="image"><img src="media/image1.png" alt="image" width="190" height="25"></span>
+<p>При нажатии на кнопку <span class="image"><img src="img/ButtonPrintCombo.png" alt="image" width="190" height="25"></span>
 возможно распечатать информацию о выбранной задаче, а также некоторые
 специфические отчеты или формы.</p>
 </div>
@@ -23,26 +23,20 @@ const activityLog = `<!DOCTYPE html>
 карточки.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image2.png" alt="image" width="195" height="98"></span></p>
+<p><span class="image"><img src="img/TaskPrintButtonList.png" alt="image" width="195" height="98"></span></p>
 </div>
 <div class="paragraph">
-<p>Печать</p>
-</div>
-<div class="paragraph">
-<p>При выборе по кнопке <span class="image"><img src="media/image3.png" alt="image" width="175" height="31"></span>
+<p>При выборе по кнопке <span class="image"><img src="img/ButtonPrintCombo.png" alt="image" width="175" height="31"></span>
 варианта «Журнал действий» откроется сформированная печатная форма,
 которую можно отправить на печать.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image4.png" alt="image" width="553" height="391"></span></p>
-</div>
-<div class="paragraph">
-<p>Печатная форма журнала действий</p>
+<p><span class="image"><img src="img/TaskActivityLogReport.png" alt="image" width="553" height="391"></span></p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-02 17:14:43 RTZ 3 (чшьр)
+Last updated 2020-11-03 15:32:37 RTZ 3 (чшьр)
 </div>
 </div>
 </body>

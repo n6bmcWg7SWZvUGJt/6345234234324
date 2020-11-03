@@ -15,11 +15,11 @@ const taskGroup = `<!DOCTYPE html>
 <div id="content">
 <div class="paragraph">
 <p><div class="blockTabs">
-<div class="tabs" id="Task GroupTabs"><button class="tablinkTask Group" onclick="openPage('Task Grouptab1', this)" id="defaultOpenTask Group">
-New Group</button><button class="tablinkTask Group" onclick="openPage('Task Grouptab2', this)" >
-Several Initiator</button><button class="tablinkTask Group" onclick="openPage('Task Grouptab3', this)" >
+<div class="tabs" id="TaskGroupTabs"><button class="tablinkTaskGroup" onclick="openPage('TaskGrouptab1', this)" id="defaultOpenTaskGroup">
+New Group</button><button class="tablinkTaskGroup" onclick="openPage('TaskGrouptab2', this)" >
+Several Initiator</button><button class="tablinkTaskGroup" onclick="openPage('TaskGrouptab3', this)" >
 </button></div>
-      <div class="tabsPages" id="Task GroupPages">   <div id="Task Grouptab1" class="tabcontentTask Group" style="display: none;">
+      <div class="tabsPages" id="TaskGroupPages">   <div id="TaskGrouptab1" class="tabcontentTaskGroup" style="display: none;">
                     <div class="paragraph">
 <p>Группа задач позволяет объединить задачи, имеющие общие признаки,
 например, это может быть одна задача, над которой работают несколько
@@ -41,13 +41,12 @@ Several Initiator</button><button class="tablinkTask Group" onclick="openPage('T
 </li>
 <li>
 <p>Создайте новую группу задач путем нажатия на кнопку
-<span class="image"><img src="media/image1.png" alt="image" width="88" height="25"></span> – «Новую».</p>
+<span class="image"><img src="img/ButtonCreateCombo.png" alt="image" width="88" height="25"></span> – «Новую».</p>
 </li>
 </ol>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image2.png" alt="image" width="523" height="139"></span>
-Создание группы задач</p>
+<p><span class="image"><img src="img/CreatingATaskGroup.png" alt="image" width="523" height="139"></span></p>
 </div>
 <div class="olist arabic">
 <ol class="arabic" start="2">
@@ -59,16 +58,13 @@ Several Initiator</button><button class="tablinkTask Group" onclick="openPage('T
 </ol>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image3.png" alt="image" width="535" height="306"></span></p>
-</div>
-<div class="paragraph">
-<p>Кнопки действий</p>
+<p><span class="image"><img src="img/ActionButtons.png" alt="image" width="535" height="306"></span></p>
 </div>
 <div class="olist arabic">
 <ol class="arabic" start="3">
 <li>
 <p>Для создания новой задачи, нажмите на кнопку
-<span class="image"><img src="media/image4.png" alt="image" width="81" height="25"></span> в панели карточки или
+<span class="image"><img src="img/ButtonAdd.png" alt="image" width="100" height="25"></span> в панели карточки или
 выберите «Добавить» из выпадающего меню при нажатии правой кнопки мышки.</p>
 </li>
 </ol>
@@ -82,7 +78,7 @@ Several Initiator</button><button class="tablinkTask Group" onclick="openPage('T
 <ol class="arabic" start="4">
 <li>
 <p>После того как все необходимые поля в задачах заполнены, нажмите на
-кнопку<span class="image"><img src="media/image5.png" alt="image" width="120" height="25"></span> в карточке
+кнопку<span class="image"><img src="img/ButtonCopyLine.png" alt="image" width="120" height="25"></span> в карточке
 редактирования группы задач.</p>
 </li>
 <li>
@@ -112,13 +108,13 @@ Several Initiator</button><button class="tablinkTask Group" onclick="openPage('T
 <div class="ulist circle">
 <ul class="circle">
 <li>
-<p><span class="image"><img src="media/image6.png" alt="image" width="182" height="25"></span> – открывает список существующих задач, из которых пользователь может выбрать те, что будут добавлены в группу;</p>
+<p><span class="image"><img src="img/ButtonAddExisting.png" alt="image" width="182" height="25"></span> – открывает список существующих задач, из которых пользователь может выбрать те, что будут добавлены в группу;</p>
 </li>
 <li>
-<p><span class="image"><img src="media/image7.png" alt="image" width="50" height="25"></span> – удаляет выбранную задачу;</p>
+<p><span class="image"><img src="img/ButtonRemove.png" alt="image" width="50" height="25"></span> – удаляет выбранную задачу;</p>
 </li>
 <li>
-<p><span class="image"><img src="media/image8.png" alt="image" width="145" height="25"></span> – создает новую задачу на основе выбранной из таблицы (поля задачи уже заполнены аналогично исходной задаче, но она еще не создана в Системе).</p>
+<p><span class="image"><img src="img/ButtonCopyLine.png" alt="image" width="145" height="25"></span> – создает новую задачу на основе выбранной из таблицы (поля задачи уже заполнены аналогично исходной задаче, но она еще не создана в Системе).</p>
 </li>
 </ul>
 </div>
@@ -126,7 +122,7 @@ Several Initiator</button><button class="tablinkTask Group" onclick="openPage('T
 <p>Подробное описание вариантов добавления вложений содержится в разделе
 «Добавление вложений».</p>
 </div>
-                     </div>   <div id="Task Grouptab2" class="tabcontentTask Group" style="display: none;">
+                     </div>   <div id="TaskGrouptab2" class="tabcontentTaskGroup" style="display: none;">
                     <div class="paragraph">
 <p>Группа задач позволяет объединить задачи, имеющие общие признаки,
 например, это может быть одна задача, над которой работают несколько
@@ -155,10 +151,7 @@ Several Initiator</button><button class="tablinkTask Group" onclick="openPage('T
 «Задача для одного из исполнителей».</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="484" height="286"></span></p>
-</div>
-<div class="paragraph">
-<p>Подтверждение списка пользователей</p>
+<p><span class="image"><img src="img/UserListCofirmation.png" alt="image" width="484" height="286"></span></p>
 </div>
 <div class="paragraph">
 <p><strong>Задача может быть назначена:</strong></p>
@@ -173,18 +166,18 @@ Several Initiator</button><button class="tablinkTask Group" onclick="openPage('T
 </li>
 </ul>
 </div>
-                     </div>   <div id="Task Grouptab3" class="tabcontentTask Group" style="display: none;">
+                     </div>   <div id="TaskGrouptab3" class="tabcontentTaskGroup" style="display: none;">
                     
                      </div></div>
 
 <script>
-function openPageTask Group(pageName,elmnt) {
-  var i, tabcontentTask Group, tablinks;
-  tabcontentTask Group = document.getElementsByClassName("tabcontentTask Group");
-  for (i = 0; i < tabcontentTask Group.length; i++) {
-    tabcontentTask Group[i].style.display = "none";
+function openPageTaskGroup(pageName,elmnt) {
+  var i, tabcontentTaskGroup, tablinks;
+  tabcontentTaskGroup = document.getElementsByClassName("tabcontentTaskGroup");
+  for (i = 0; i < tabcontentTaskGroup.length; i++) {
+    tabcontentTaskGroup[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablinkTask Group");
+  tablinks = document.getElementsByClassName("tablinkTaskGroup");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
     tablinks[i].style.borderBottom = "solid #ffffff00 2px";
@@ -192,6 +185,6 @@ function openPageTask Group(pageName,elmnt) {
   document.getElementById(pageName).style.display = "block";
   elmnt.style.borderBottom = "solid #37c6ff 2px";
 }
-document.getElementById("defaultOpenTask Group").click();
+document.getElementById("defaultOpenTaskGroup").click();
 </script>
 `;

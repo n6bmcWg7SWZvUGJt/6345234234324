@@ -20,14 +20,11 @@ const executiveDisciplineControl = `<!DOCTYPE html>
 </div>
 <div class="paragraph">
 <p>Для того чтобы сформировать отчёт, следует открыть список задач и нажать
-на кнопку <span class="image"><img src="media/image1.png" alt="image" width="51" height="25"></span> – «Контроль
+на кнопку <span class="image"><img src="img/BottonPrint.png" alt="image" width="51" height="25"></span> – «Контроль
 исполнительской дисциплины».</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image2.png" alt="image" width="571" height="156"></span></p>
-</div>
-<div class="paragraph">
-<p>Выбор отчета по контролю исполнительской дисциплины</p>
+<p><span class="image"><img src="img/TaskExecutiveDisciplineControl.png" alt="image" width="571" height="156"></span></p>
 </div>
 <div class="paragraph">
 <p>В отобразившемся окне нужно указать дату, подразделение и фамилию
@@ -38,21 +35,18 @@ const executiveDisciplineControl = `<!DOCTYPE html>
 сформирован по всем Исполнителям.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image3.png" alt="image" width="378" height="112"></span></p>
-</div>
-<div class="paragraph">
-<p>Ввод параметров отчета</p>
+<p><span class="image"><img src="img/TaskExecutiveDisciplineControlInputParameters.png" alt="image" width="378" height="112"></span></p>
 </div>
 <div class="paragraph">
 <p>Затем нужно нажать на кнопку
-<span class="image"><img src="media/image4.png" alt="image" width="135" height="25"></span>. Система сгенерирует
+<span class="image"><img src="img/TaskPrintReportButton.png" alt="image" width="135" height="25"></span>. Система сгенерирует
 файл формата «.xls» с отчётом и сохранит его на диск для печати.</p>
 </div>
 <div class="paragraph">
 <p>Сформированный отчет можно посмотреть до печати.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image5.png" alt="image" width="558" height="256"></span></p>
+<p><span class="image"><img src="img/TaskExecutiveDisciplineControlInputParametersExample.png" alt="image" width="558" height="256"></span></p>
 </div>
 <div class="paragraph">
 <p>Пример отчета по исполнительской дисциплине</p>
@@ -65,7 +59,7 @@ const executiveDisciplineControl = `<!DOCTYPE html>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-02 17:21:47 RTZ 3 (чшьр)
+Last updated 2020-11-03 15:50:08 RTZ 3 (чшьр)
 </div>
 </div>
 </body>

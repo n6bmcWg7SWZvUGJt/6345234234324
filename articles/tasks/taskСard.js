@@ -71,7 +71,7 @@ const taskСard = `<!DOCTYPE html>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-03 16:24:13 RTZ 3 (чшьр)
+Last updated 2020-11-03 17:50:41 RTZ 3 (чшьр)
 </div>
 </div>
 </body>

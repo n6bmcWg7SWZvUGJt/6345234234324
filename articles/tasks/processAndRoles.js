@@ -15,16 +15,13 @@ const processAndRoles = `<!DOCTYPE html>
 <div id="content">
 <div class="paragraph">
 <p><div class="blockTabs">
-<div class="tabs" id="Process And RolesTabs"><button class="tablinkProcess And Roles" onclick="openPage('Process And Rolestab1', this)" id="defaultOpenProcess And Roles">
-Process</button><button class="tablinkProcess And Roles" onclick="openPage('Process And Rolestab2', this)" >
-Roles</button><button class="tablinkProcess And Roles" onclick="openPage('Process And Rolestab3', this)" >
+<div class="tabs" id="ProcessAndRolesTabs"><button class="tablinkProcessAndRoles" onclick="openPage('ProcessAndRolestab1', this)" id="defaultOpenProcessAndRoles">
+Process</button><button class="tablinkProcessAndRoles" onclick="openPage('ProcessAndRolestab2', this)" >
+Roles</button><button class="tablinkProcessAndRoles" onclick="openPage('ProcessAndRolestab3', this)" >
 </button></div>
-      <div class="tabsPages" id="Process And RolesPages">   <div id="Process And Rolestab1" class="tabcontentProcess And Roles" style="display: none;">
+      <div class="tabsPages" id="ProcessAndRolesPages">   <div id="ProcessAndRolestab1" class="tabcontentProcessAndRoles" style="display: none;">
                     <div class="paragraph">
-<p><span class="image"><img src="media/image1.emf" alt="image" width="459" height="207"></span></p>
-</div>
-<div class="paragraph">
-<p>Процесс выполнения задачи</p>
+<p><span class="image"><img src="img/Task Management Process.png" alt="image" width="459" height="207"></span></p>
 </div>
 <div class="paragraph">
 <p><strong>Процесс выполнения задачи может быть представлен следующим образом:</strong></p>
@@ -98,7 +95,7 @@ Roles</button><button class="tablinkProcess And Roles" onclick="openPage('Proces
 выполнять в процессе выполнения задачи. Кроме того, набор ролей
 пользователя влияет на число и состав доступных папок действий.</p>
 </div>
-                     </div>   <div id="Process And Rolestab2" class="tabcontentProcess And Roles" style="display: none;">
+                     </div>   <div id="ProcessAndRolestab2" class="tabcontentProcessAndRoles" style="display: none;">
                     <div class="paragraph">
 <p>В рамках процесса работы над задачами определены следующие роли:</p>
 </div>
@@ -140,18 +137,18 @@ Roles</button><button class="tablinkProcess And Roles" onclick="openPage('Proces
 </tr>
 </tbody>
 </table>
-                     </div>   <div id="Process And Rolestab3" class="tabcontentProcess And Roles" style="display: none;">
+                     </div>   <div id="ProcessAndRolestab3" class="tabcontentProcessAndRoles" style="display: none;">
                     
                      </div></div>
 
 <script>
-function openPageProcess And Roles(pageName,elmnt) {
-  var i, tabcontentProcess And Roles, tablinks;
-  tabcontentProcess And Roles = document.getElementsByClassName("tabcontentProcess And Roles");
-  for (i = 0; i < tabcontentProcess And Roles.length; i++) {
-    tabcontentProcess And Roles[i].style.display = "none";
+function openPageProcessAndRoles(pageName,elmnt) {
+  var i, tabcontentProcessAndRoles, tablinks;
+  tabcontentProcessAndRoles = document.getElementsByClassName("tabcontentProcessAndRoles");
+  for (i = 0; i < tabcontentProcessAndRoles.length; i++) {
+    tabcontentProcessAndRoles[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablinkProcess And Roles");
+  tablinks = document.getElementsByClassName("tablinkProcessAndRoles");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
     tablinks[i].style.borderBottom = "solid #ffffff00 2px";
@@ -159,6 +156,6 @@ function openPageProcess And Roles(pageName,elmnt) {
   document.getElementById(pageName).style.display = "block";
   elmnt.style.borderBottom = "solid #37c6ff 2px";
 }
-document.getElementById("defaultOpenProcess And Roles").click();
+document.getElementById("defaultOpenProcessAndRoles").click();
 </script>
 `;

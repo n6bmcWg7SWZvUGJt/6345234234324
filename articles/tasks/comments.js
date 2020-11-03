@@ -14,7 +14,7 @@ const comments = `<!DOCTYPE html>
 </div>
 <div id="content">
 <div class="paragraph">
-<p>На вкладке «Обсуждения» отображаются комментарии по текущей задаче,
+<p>На вкладке <strong>«Обсуждения»</strong> отображаются комментарии по текущей задаче,
 документу, договору или совещанию.</p>
 </div>
 <div class="paragraph">
@@ -22,13 +22,10 @@ const comments = `<!DOCTYPE html>
 вкладки.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="474" height="389"></span></p>
+<p><span class="image"><img src="img/CommentsTab.png" alt="image" width="474" height="389"></span></p>
 </div>
 <div class="paragraph">
-<p>Вкладка «Обсуждения»</p>
-</div>
-<div class="paragraph">
-<p>Во вкладке «Обсуждения» отображаются:</p>
+<p><strong>Во вкладке «Обсуждения» отображаются:</strong></p>
 </div>
 <div class="ulist circle">
 <ul class="circle">
@@ -63,20 +60,17 @@ const comments = `<!DOCTYPE html>
 <div class="paragraph">
 <p>Для поиска требуемой информации в обсуждении нужно воспользоваться
 строкой поиска. Чтобы открыть строку поиска, необходимо нажать на кнопку
-поиска <span class="image"><img src="media/image2.png" alt="image" width="27" height="25"></span> либо
+поиска <span class="image"><img src="img/ButtonSearch.png" alt="image" width="27" height="25"></span> либо
 воспользоваться сочетанием клавиш «Ctrl+F».</p>
 </div>
 <div class="paragraph">
 <p>Вкладка «Обсуждения» также доступна для печати. Для этого нужно нажать
-на кнопку <span class="image"><img src="media/image3.png" alt="image" width="190" height="25"></span> и выбрать в
+на кнопку <span class="image"><img src="img/ButtonPrintCombo.png" alt="image" width="190" height="25"></span> и выбрать в
 выпадающем списке – «Обсуждения», после чего лист обсуждений откроется в
 отдельном окне и будет доступен для печати.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image4.png" alt="image" width="190" height="113"></span></p>
-</div>
-<div class="paragraph">
-<p>Печать обсуждений</p>
+<p><span class="image"><img src="img/PrintCardComment.png" alt="image" width="190" height="113"></span></p>
 </div>
 <div class="paragraph">
 <p>Все адресаты получат оповещения о комментарии на электронную почту в
@@ -85,7 +79,7 @@ const comments = `<!DOCTYPE html>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-30 16:28:57 RTZ 3 (чшьр)
+Last updated 2020-11-03 13:29:39 RTZ 3 (чшьр)
 </div>
 </div>
 </body>

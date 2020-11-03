@@ -23,10 +23,7 @@ const heirarhy = `<!DOCTYPE html>
 выделены синим цветом.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="510" height="162"></span></p>
-</div>
-<div class="paragraph">
-<p>Вкладка «Иерархия»</p>
+<p><span class="image"><img src="img/HierarchyTab.png" alt="alt"></span></p>
 </div>
 <div class="paragraph">
 <p>Для просмотра выбранной в списке задачи, документа, договора или
@@ -36,7 +33,7 @@ const heirarhy = `<!DOCTYPE html>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-30 16:27:16 RTZ 3 (чшьр)
+Last updated 2020-11-03 13:29:50 RTZ 3 (чшьр)
 </div>
 </div>
 </body>

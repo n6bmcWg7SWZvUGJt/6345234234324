@@ -39,10 +39,7 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 произведенных в карточке задачи, документа, договора или совещания.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="540" height="263"></span></p>
-</div>
-<div class="paragraph">
-<p>Вкладка «История изменений»</p>
+<p><span class="image"><img src="img/TabChangeHistory.png" alt="image" width="540" height="263"></span></p>
 </div>
 <div class="paragraph">
 <p>В процессе создания карточки эта вкладка пустая.</p>
@@ -60,9 +57,6 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
                      </div>   <div id="Additionallytab2" class="tabcontentAdditionally" style="display: none;">
                     <div class="paragraph">
 <p><strong>На вкладке «Связанные карточки» отображаются следующие карточки:</strong></p>
-</div>
-<div class="paragraph">
-<p>Карточки, отображающиеся на вкладке</p>
 </div>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -146,7 +140,7 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 <ol class="arabic">
 <li>
 <p>Открыть в нужной карточке вкладку «Связанные карточки» и нажать на
-кнопку <span class="image"><img src="media/image1.png" alt="image" width="81" height="25"></span>.</p>
+кнопку <span class="image"><img src="img/ButtonAdd.png" alt="image" width="81" height="25"></span>.</p>
 </li>
 <li>
 <p>Выбрать тип карточки.</p>
@@ -154,13 +148,10 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 </ol>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image2.png" alt="image" width="287" height="90"></span></p>
-</div>
-<div class="paragraph">
-<p>Выбор типа карточки</p>
+<p><span class="image"><img src="img/ChoosingCardType.png" alt="image" width="287" height="90"></span></p>
 </div>
 <div class="olist arabic">
-<ol class="arabic" start="2">
+<ol class="arabic" start="3">
 <li>
 <p>Выбрать в открывшемся списке нужные карточки и нажать на кнопку
 «Выбрать».</p>
@@ -168,10 +159,7 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 </ol>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image3.png" alt="image" width="350" height="216"></span></p>
-</div>
-<div class="paragraph">
-<p>Выбор нужного документа</p>
+<p><span class="image"><img src="img/SelectingTheRequiredDocument.png" alt="image" width="350" height="216"></span></p>
 </div>
 <div class="paragraph">
 <p>Карточка выбранной задачи, документа, договора или совещания добавится
@@ -180,7 +168,7 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 <div class="paragraph">
 <p>Для того чтобы удалить карточку из данной вкладки, необходимо выделить
 нужную строку таблицы и нажать на кнопку
-<span class="image"><img src="media/image4.png" alt="image" width="50" height="25"></span>.</p>
+<span class="image"><img src="img/ButtonRemove.png" alt="image" width="50" height="25"></span>.</p>
 </div>
                      </div>   <div id="Additionallytab3" class="tabcontentAdditionally" style="display: none;">
                     <div class="paragraph">
@@ -188,10 +176,7 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 документа, договора или совещания пользователями Системы.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="494" height="243"></span></p>
-</div>
-<div class="paragraph">
-<p>Вкладка «История открытий»</p>
+<p><span class="image"><img src="img/TabOpenHistory.png" alt="image" width="494" height="243"></span></p>
 </div>
                      </div>   <div id="Additionallytab4" class="tabcontentAdditionally" style="display: none;">
                     <div class="paragraph">
@@ -210,29 +195,23 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 одновременно.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="397" height="138"></span></p>
-</div>
-<div class="paragraph">
-<p>Вкладка «Проекты»</p>
+<p><span class="image"><img src="img/TabProjects.png" alt="image" width="397" height="138"></span></p>
 </div>
 <div class="paragraph">
 <p>С помощью нажатия на кнопку
-<span class="image"><img src="media/image2.png" alt="image" width="140" height="25"></span> можно отметить, какой
+<span class="image"><img src="img/ButtonSetMainProject.png" alt="image" width="140" height="25"></span> можно отметить, какой
 проект является основным (в соответствующем столбце будет отмечен
 чек-бокс, а название проекта будет отображаться в списке карточек).</p>
 </div>
 <div class="paragraph">
 <p>Для того чтобы добавить документ или задачу в проект, на вкладке
 необходимо нажать на кнопку
-<span class="image"><img src="media/image3.png" alt="image" width="81" height="25"></span>, в открывшемся окне
+<span class="image"><img src="img/ButtonAdd.png" alt="image" width="81" height="25"></span>, в открывшемся окне
 выбрать группу проектов и сам проект, а затем нажать на кнопку
-<span class="image"><img src="media/image4.png" alt="image" width="95" height="25"></span>.</p>
+<span class="image"><img src="img/ButtonSelect.png" alt="image" width="95" height="25"></span>.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image5.png" alt="image" width="354" height="157"></span></p>
-</div>
-<div class="paragraph">
-<p>Добавление проекта</p>
+<p><span class="image"><img src="img/AddingProject.png" alt="image" width="354" height="157"></span></p>
 </div>
 <div class="paragraph">
 <p>Выбранный проект отобразится во вкладке «Проекты», которая будет
@@ -241,15 +220,12 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 основной проект.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image6.png" alt="image" width="370" height="148"></span></p>
-</div>
-<div class="paragraph">
-<p>Основной проект</p>
+<p><span class="image"><img src="img/MainProject.png" alt="image" width="370" height="148"></span></p>
 </div>
 <div class="paragraph">
 <p>После того как проект был добавлен, необходимо нажать на кнопку
-<span class="image"><img src="media/image7.png" alt="image" width="190" height="25"></span> или
-<span class="image"><img src="media/image8.png" alt="image" width="88" height="25"></span>.</p>
+<span class="image"><img src="img/ButtonSaveAndClose.png" alt="image" width="190" height="25"></span> или
+<span class="image"><img src="img/ButtonSave.png" alt="image" width="88" height="25"></span>.</p>
 </div>
 <div class="paragraph">
 <p>Просмотреть список всех существующих проектов можно в меню «Справочники»
@@ -257,10 +233,7 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 проект.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image9.png" alt="image" width="549" height="225"></span></p>
-</div>
-<div class="paragraph">
-<p>Список всех проектов</p>
+<p><span class="image"><img src="img/ListOfAllProjects.png" alt="image" width="549" height="225"></span></p>
 </div>
 <div class="paragraph">
 <p>Для просмотра списка задач, документов и договоров, относящихся к
@@ -279,14 +252,11 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 <p>Изменять роли во время работы процесса запрещено.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="412" height="210"></span></p>
-</div>
-<div class="paragraph">
-<p>Вкладка «Роли»</p>
+<p><span class="image"><img src="img/TabRoles.png" alt="image" width="412" height="210"></span></p>
 </div>
                      </div>   <div id="Additionallytab6" class="tabcontentAdditionally" style="display: none;">
                     <div class="paragraph">
-<p>На вкладке «Безопасность» содержится список пользователей по текущей
+<p>На вкладке <strong>Безопасность»</strong> содержится список пользователей по текущей
 задаче, документу, договору или совещанию, которым данная карточка
 доступна для просмотра в соответствии с системными настройками.</p>
 </div>
@@ -297,10 +267,7 @@ Security</button><button class="tablinkAdditionally" onclick="openPage('Addition
 Инициатор.</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="510" height="253"></span></p>
-</div>
-<div class="paragraph">
-<p>Вкладка «Безопасность»</p>
+<p><span class="image"><img src="img/TabSecurity.png" alt="image" width="510" height="253"></span></p>
 </div>
 <div class="paragraph">
 <p>На вкладку «Безопасность» автоматически добавляются пользователи,

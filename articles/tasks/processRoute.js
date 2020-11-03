@@ -20,10 +20,7 @@ const processRoute = `<!DOCTYPE html>
 задачами».</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="media/image1.png" alt="image" width="580" height="192"></span></p>
-</div>
-<div class="paragraph">
-<p>Диаграмма</p>
+<p><span class="image"><img src="img/Diagram.png" alt="image" width="580" height="192"></span></p>
 </div>
 <div class="paragraph">
 <p>Также внизу экрана в журнале действий можно посмотреть историю работы с
@@ -32,7 +29,7 @@ const processRoute = `<!DOCTYPE html>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-02 16:37:08 RTZ 3 (чшьр)
+Last updated 2020-11-03 14:38:12 RTZ 3 (чшьр)
 </div>
 </div>
 </body>
